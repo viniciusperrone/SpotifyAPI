@@ -3,6 +3,8 @@ import { createGlobalStyle } from 'styled-components';
 export default createGlobalStyle`
   :root{
     font-size: 60%;
+    --color-background: #275F68;
+    --color-background-header: #1F2032;
   }
 
   *{
@@ -13,7 +15,8 @@ export default createGlobalStyle`
   }
 
   html, body, #root{
-    height: 100vh
+    height: 100vh;
+    width: 100vw;
   }
 
   body{

@@ -1,15 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import GlobalStyle from './styles/global';
 
 import Background from './components/Background';
+import Routes from './routes';
 
 const App = () => {
   return (
     <>
       <Background>
-        
+        <Routes />
       </Background>
       <GlobalStyle />
     </>
