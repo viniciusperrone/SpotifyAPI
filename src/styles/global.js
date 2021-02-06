@@ -5,6 +5,7 @@ export default createGlobalStyle`
     font-size: 60%;
     --color-background: #275F68;
     --color-background-header: #1F2032;
+    --color-background-button: #1DB954;
   }
 
   *{
@@ -25,10 +26,6 @@ export default createGlobalStyle`
 
   button {
     border: none;
-  }
-
-  button a{
-    text-decoration: none;
   }
 
 `;

@@ -1,10 +1,12 @@
 import React from 'react';
 
 import { HeaderConteiner } from './style';
-const Header = () => {
+const Header = ( { children } ) => {
   return(
     <>
-      <HeaderConteiner />
+      <HeaderConteiner>
+        { children }
+      </HeaderConteiner>
     </>
     
   )

@@ -19,7 +19,28 @@ export const ConteinerBackground = styled.div`
 
   margin: 0;
   padding: 0;
-  
+
+  main {
+    grid-area: main;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  button a {
+    text-decoration: none;
+    color: #fff;
+  }
+  footer{
+    grid-area: footer;
+    width: 100vw;
+    height: 100%;
+    background-color: #f7f8;
+    align-items: center;
+    justify-content: center;
+
+  }
   
 
 `;
