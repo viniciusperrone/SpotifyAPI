@@ -3,6 +3,11 @@ import { Link } from 'react-router-dom';
 // import  getHashParams from '../../token';
 
 import SpotifyLogo from '../../assets/spotify_logo.svg';
+import GithubLogo from '../../assets/github_logo.svg';
+
+import EdSherranCard from '../../assets/ed_sheeran.svg';
+import EddieVedderCard from '../../assets/eddie_vedder.svg';
+import ShawnMendesCard from '../../assets/shawn_mendes.svg';
 
 import Background from '../../components/Background';
 import Header from '../../components/Header';
@@ -54,18 +59,22 @@ const Home = () => {
           </DashboardConteiner>
 
           <ContextCard>
-              <Card />
-              <Card />
-              <Card />
+              <Card>
+                <img src={EdSherranCard} alt=""/>
+              </Card>
+              <Card>
+                <img src={EddieVedderCard} alt=""/>
+              </Card>
+              <Card>
+                <img src={ShawnMendesCard} alt=""/>
+              </Card>
             </ContextCard>
           
           
         </MainConteiner>
         <Footer>
-          <h3>Spotify</h3>
-          <p>Empresa</p>
-          <p>Comunidade</p>
-          <p>Links Úteis</p>
+          <img src={GithubLogo} alt=""/>
+          <h3>Github</h3>
         </Footer>
       </Background>
     

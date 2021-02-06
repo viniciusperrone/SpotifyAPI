@@ -35,14 +35,15 @@ export const DashboardConteiner = styled.div`
   color: #fff;
 
   h1{
-    font-size: 48px;
     font-weight: 900;
+    font: 500 5rem Noto Serif;
     letter-spacing: -0.04em;
     line-height: 1.15;
   }
 
   h2{
-    font-size: 20px;
+    margin-top: 8px;
+    font: 500 3rem Oswald;
     font-weight: 900;
     line-height: 1.4;
   }
@@ -77,4 +78,14 @@ export const Footer = styled.footer`
   
   background-color: var(--color-background-header);
   color: #fff;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  h3 {
+    font: 500 1.5rem Noto Serif;
+  }
 `;

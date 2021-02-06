@@ -2,9 +2,11 @@ import React from 'react';
 
 import { CardConteiner } from './style';
 
-const Card = () => {
+const Card = ( { children }) => {
   return(
-    <CardConteiner />
+    <CardConteiner>
+      { children }
+    </CardConteiner>
   )
 }
 
