@@ -8,7 +8,7 @@ export default createGlobalStyle`
     --color-background-button: #1DB954;
   }
 
-  *{
+  * {
     margin: 0;
     padding: 0;
     outline: 0;
@@ -18,6 +18,9 @@ export default createGlobalStyle`
   html, body, #root{
     height: 100vh;
     width: 100vw;
+
+    margin: 0;
+    padding: 0;
   }
 
   body{

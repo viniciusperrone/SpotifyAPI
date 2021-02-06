@@ -6,13 +6,17 @@ export const ButtonTop = styled.div`
 
   color: #fff;
 
-  background-color: #bcf8ec;
-
+  position: relative;
   display: flex;
 
+  justify-self: end;
+  align-self: end;
   justify-content: center;
   align-items: center;
 
-  align-self: flex-end;
-  margin-right: 2px;
+  margin-right: 5px;
+
+  &:hover{
+    color: #1DB954;
+  }
 `;
