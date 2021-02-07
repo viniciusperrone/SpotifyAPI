@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { AiOutlineSearch } from 'react-icons/ai';
+
 import SpotifyLogo from '../../assets/spotify_logo.svg';
 
 import ButtonHeader from '../../components/ButtonHeader';
@@ -27,10 +29,11 @@ const Dashboard = () => {
           </ButtonHeader>
         </Header>
         <MainContent>
-
+          <AiOutlineSearch sizy={30}/>
         
           
         </MainContent>
+        <AiOutlineSearch sizy={30}/>
       </Background>
     </>
   )
