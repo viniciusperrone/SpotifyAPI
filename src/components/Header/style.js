@@ -8,6 +8,7 @@ export const HeaderConteiner = styled.header`
   display: flex;
 
   position: absolute;
+  z-index: 10;
   
   justify-content: flex-start;
 

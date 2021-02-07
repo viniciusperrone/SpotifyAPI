@@ -54,7 +54,7 @@ const Home = () => {
             <h1>Search</h1>
             <h2>Albums, Artists and Favorite Songs</h2>
             <Button>
-              <Link to="http://localhost:8888">START</Link>
+              <Link to="/dashboard">START</Link>    
             </Button>
           </DashboardConteiner>
 
